@@ -32,9 +32,11 @@ public class MzMainActivity extends SwipeRefreshBaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // TODO: 2017/2/24 没效果
         setTheme(R.style.MzAppTheme);
         ButterKnife.bind(this);
 
-
     }
+
+
 }
