@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".retrofitdemo.TestRetrofitDemoActivity">
+        <activity android:name=".meizi.rx.ui.MzMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -20,6 +20,7 @@
         <activity android:name=".SimpleExampleCoordinator">
         </activity>
         <!--<activity android:name=".rxjava.NormalRxJava"/>-->
+
     </application>
 
 </manifest>

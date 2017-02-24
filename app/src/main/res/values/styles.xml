@@ -8,6 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MzAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_primary_darker</item>
+    </style>
     <style name="TextComponent"/>
     <style name="TextComponent.ItemRow">
         <item name="android:gravity">center_vertical</item>
